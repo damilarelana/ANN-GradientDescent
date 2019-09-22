@@ -5,3 +5,5 @@
 * Numpy
 * Matplotlib
 * core Python
+
+### The entry point is by running the code `vectorisedfeedforwardpass.py`
