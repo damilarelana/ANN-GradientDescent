@@ -1,3 +1,3 @@
-# Artificial Neural Network [ANN]
+### Artificial Neural Network [ANN]
 
-## Here we seek to build ANN models without the use of frameworks
+A machine learning algorithm that implements gradient descent and backpropagation training methods, from first principles - without recourse to frameworks. The code performs training and accuracy prediction using the MNIST dataset. [Machine Learning, Python, Numpy, Matplotlib, Scikit-Learn]
