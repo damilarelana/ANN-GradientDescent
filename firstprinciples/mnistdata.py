@@ -1,10 +1,11 @@
 from sklearn.datasets import load_digits
 from sklearn.preprocessing import StandardScaler
 from sklearn.model_selection import train_test_split
+from sklearn.metrics import accuracy_score
 import matplotlib.pyplot as plt
 import numpy as np
 import timeit
-from sklearn.metrics import accuracy_score
+import seaborn as sns
 
 
 # initialize
@@ -178,6 +179,7 @@ def training_neuralnetwork(neuralnetwork_layer_structure, normalized_input, expe
 W, b, avg_cost_function = training_neuralnetwork(neuralnetwork_layer_structure, input_training_data, vectorized_training_output)
 
 # plot the results
+sns.set() # initialize 
 plt.plot(avg_cost_function)
 plt.ylabel('Average J')
 plt.xlabel('Iteration Number')
